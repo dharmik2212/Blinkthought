@@ -1,0 +1,22 @@
+.env
+myenv# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+myenv/
+.env
+
+# Model Weights & Checkpoints (too large for GitHub)
+jev_decision_model/
+*.bin
+*.safetensors
+*.pt
+
+# Datasets (optional: keep if small, ignore if large)
+# train.jsonl
+# calibration.jsonl
+# test.jsonl
+
+# OS files
+.DS_Store
+Thumbs.db
